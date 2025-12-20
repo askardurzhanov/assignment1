@@ -14,7 +14,17 @@ public class Point {
         return x;
     }
 
+    public double getY() {
+        return y;
+    }
     // distance(Point dest) - distance from current point to the dest point
-
+public double distance(Point dest) {
+        double dx = this.x - dest.x;
+        double dy = this.y - dest.y;
+        return Math.sqrt(dx * dx + dy * dy);
+}
     // toString
+public String toString() {
+    return "(" + x + "," + y + ")";
+    }
 }
