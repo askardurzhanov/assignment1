@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Shape {
 
-    private ArrayList<Point> points
+    private ArrayList<Point> points;
 
     public Shape() {
         points = new ArrayList<>();
