@@ -10,6 +10,9 @@ public class Point {
         this.y = y;
     }
     // getters and setters
+    public double getX() {
+        return x;
+    }
 
     // distance(Point dest) - distance from current point to the dest point
 
